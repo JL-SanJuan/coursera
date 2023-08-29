@@ -16,7 +16,7 @@ h1{
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-between;
-	margin:0 15px;
+	margin:0 25px;
 }
 .menu{
 	background-color:grey;
@@ -70,6 +70,7 @@ h1{
 /*-----MOBILE DEVICES-----*/
 @media (max-width: 767px){
 	.container .menu{
-		margin: 5px 0;
+		margin: 10px 40px;
 		width:100%;
 	}
+}
