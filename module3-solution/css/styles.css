@@ -56,12 +56,12 @@ body{
 
 /*----MAIN-----*/
 h1{
-	margin-top:20px;
-	margin-bottom:60px;	
+	margin-top:10px;
+	margin-bottom:40px;	
 	font-weight:bold;
 }
 main.container-fluid{
-	margin: 0 40px;
+	margin: 0 20px;
 }
 
 .menu{
@@ -84,7 +84,28 @@ main.container-fluid{
 }
 
 @media (max-width: 768px){
-	main.container-fluid{
-		margin:0 60px;
+	
+	/*-----HEADER-----*/
+	#brand{
+		font-size:1.5em;
+		padding: 30px 30px 20px 20px;
 	}
+	.navbar-default .navbar-collapse #list li{
+		font-size:1em;
+	}
+	
+	/*----MAIN----*/
+	h1{
+		margin-top:0;
+		margin-bottom:20px;
+	}
+	main.container-fluid{
+		margin:0 35px;
+		
+	}
+	h1{
+		font-weight:600;
+		font-size:1.3em;
+	}
+	
 }
