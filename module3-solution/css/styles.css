@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+body{
+	font-family:sans-serif;
+	font-size: 16px;
+	color:black;
+}
+
+#buttonnav{
+	border: 1px solid black;
+	height: 51px;
+	margin:10px 30px;
+	background-color:grey;
+}
+#buttonnav:hover{
+	background-color:#ddd;
+}
+.navbar-header #buttonnav .icon-bar{
+	color:black;
+	border: 2px solid black;
+}
+.navbar-default .navbar-collapse #list{
+	background-color:white;
+	border:none;
+	
+}
+.navbar-default .navbar-collapse #list li{
+	border:1px solid black;
+	font-weight:bold;
+	font-size:1.4em;
+	color:black;
+}
+.navbar-default #navbar-collapse{
+	border:none;
+}
+.navbar{
+	border:none;
+}
+.navbar-nav{
+	margin: 0 -15px;
+}
+#nav{
+	background-color:grey;
+	border-bottom:1px solid black;
+}
+#brand{
+	padding: 30px 30px 50px 30px;
+	font-size:2.2em;
+	color:black;
+	font-weight:bold;
+}
+
+
+/*----MAIN-----*/
+h1{
+	margin-top:20px;
+	margin-bottom:60px;	
+	font-weight:bold;
+}
+main.container-fluid{
+	margin: 0 40px;
+}
+
+.menu{
+	background-color:grey;
+	padding: 10px 20px;
+	border: 1px solid black;
+	height:800px;
+	margin-bottom:20px;
+}
+.menu .description{
+	margin-top:20px;
+	font-size: 1.2em;
+	font-weight:bold;
+}
+.name{
+	padding: 5px;
+	font-size:1.7em;
+	text-align:center;
+	font-weight:bold;
+}
+
+@media (max-width: 768px){
+	main.container-fluid{
+		margin:0 60px;
+	}
+}
